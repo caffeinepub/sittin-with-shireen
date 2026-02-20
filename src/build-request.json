@@ -1,0 +1,178 @@
+{
+  "kind": "build_request",
+  "title": "Redesign website inspired by sherrishowtv.com layout and structure",
+  "projectName": "Sittin with Shireen",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-10",
+      "text": "Analyze the sherrishowtv.com website design at https://www.sherrishowtv.com and implement a similar layout structure including navigation patterns, hero section styling, content organization, and overall page architecture",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "I would like a website with this design https://www.sherrishowtv.com"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Website layout mirrors the structural patterns observed in sherrishowtv.com",
+        "Navigation follows similar placement and interaction patterns",
+        "Hero section adopts comparable visual hierarchy and layout",
+        "Content sections are organized with similar spacing and flow"
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "text": "Update the Home page component to match the visual styling and content arrangement patterns from sherrishowtv.com while maintaining the 'Sittin with Shireen' branding with fuchsia pink and orange colors",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "I would like a website with this design https://www.sherrishowtv.com"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Home page layout structure reflects sherrishowtv.com design patterns",
+        "Brand colors (fuchsia pink and orange) are preserved throughout",
+        "Content sections follow similar visual hierarchy",
+        "Typography and spacing align with reference site aesthetics"
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "text": "Redesign the Videos page gallery layout to match the video presentation style from sherrishowtv.com while keeping the YouTube-style grid functionality",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "I would like a website with this design https://www.sherrishowtv.com"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Video thumbnails and cards match the styling from sherrishowtv.com",
+        "Grid layout maintains responsive behavior",
+        "Hover states and interactions align with reference design",
+        "Video playback functionality remains intact"
+      ]
+    },
+    {
+      "id": "REQ-13",
+      "text": "Update the Header and Navigation components to match the header design, logo placement, and menu structure from sherrishowtv.com",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "I would like a website with this design https://www.sherrishowtv.com"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Header layout and styling matches sherrishowtv.com patterns",
+        "Navigation menu structure and positioning align with reference site",
+        "Green logo remains in place with appropriate sizing and placement",
+        "Mobile responsiveness matches reference design approach"
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "text": "Redesign the Store page to match the merchandise presentation style from sherrishowtv.com while maintaining existing shopping cart and checkout functionality",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "I would like a website with this design https://www.sherrishowtv.com"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Product cards match the visual style from sherrishowtv.com",
+        "Store layout follows similar grid patterns and spacing",
+        "Shopping cart integration remains functional",
+        "Product imagery and pricing display align with reference design"
+      ]
+    },
+    {
+      "id": "REQ-15",
+      "text": "Update the Podcast page to match the episode listing and audio player presentation from sherrishowtv.com",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "I would like a website with this design https://www.sherrishowtv.com"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Episode cards match the styling from sherrishowtv.com",
+        "Audio player design aligns with reference site patterns",
+        "Episode listing layout follows similar organization",
+        "Playback controls maintain functionality with updated styling"
+      ]
+    },
+    {
+      "id": "REQ-16",
+      "text": "Update the Footer component to match the footer design, content layout, and styling from sherrishowtv.com",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "I would like a website with this design https://www.sherrishowtv.com"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Footer layout structure matches sherrishowtv.com patterns",
+        "Social links and contact information follow similar arrangement",
+        "Styling and color scheme align with reference design",
+        "Copyright and attribution text remain intact"
+      ]
+    },
+    {
+      "id": "REQ-17",
+      "text": "Adapt the overall color scheme and typography throughout the site to match sherrishowtv.com aesthetics while preserving the fuchsia pink and orange brand identity where it enhances rather than conflicts with the reference design",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "I would like a website with this design https://www.sherrishowtv.com"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Typography (font families, sizes, weights) matches sherrishowtv.com patterns",
+        "Color palette integrates sherrishowtv.com styling with existing brand colors",
+        "Spacing and padding follow similar design system",
+        "Overall visual consistency matches reference site"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not change the backend schema or API endpoints",
+    "Preserve all existing functionality including authentication, cart, video playback, and audio player",
+    "Keep the green logo (SwS Green Vector v1.png) in place",
+    "Maintain auto-play background music functionality",
+    "Do not modify read-only paths: frontend/src/hooks/useInternetIdentity.ts, frontend/src/hooks/useInternetIdentity.tsx, frontend/src/hooks/useActor.ts, frontend/src/main.tsx, frontend/src/components/ui"
+  ],
+  "nonGoals": [
+    "Adding new backend features or data models",
+    "Changing payment processing or Stripe integration",
+    "Modifying admin panel functionality",
+    "Creating new pages not present in the original site",
+    "Replacing the green logo with a different one"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 7,
+  "summary": "Sittin with Shireen - A talk show website inspired by sherrishowtv.com design, featuring video gallery (YouTube-style layout), merchandise store, podcast section, and background music. Brand colors: fuchsia pink and orange.",
+  "architectural_notes": [
+    "Video content display should follow YouTube grid layout pattern",
+    "Color palette: fuchsia pink (#FF00FF range) and orange as primary brand colors",
+    "Background music player needs to persist across page navigation",
+    "Background music should auto-play on initial page load (consider browser autoplay policies)",
+    "Design inspiration: sherrishowtv.com layout patterns and structure"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-homepage-that-introduces-shireen-as-a-talk-show-host-with-the-tagline-sittin-with-shireen-using-fuchsia-pink-and-orange-as-the-primary-brand-colors-throughout-the-design",
+      "title": "Create a homepage that introduces Shireen as a talk show host with the tagline 'Sittin with Shireen', using fuchsia pink and orange as the primary brand colors throughout the design",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-video-gallery-page-with-a-youtube-style-grid-layout-where-shireen-can-upload-and-display-videos-of-each-talk-show-session",
+      "title": "Build a video gallery page with a YouTube-style grid layout where Shireen can upload and display videos of each talk show session",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-merchandise-store-page-where-products-can-be-displayed-and-purchased-with-product-listings-descriptions-and-pricing",
+      "title": "Create a merchandise store page where products can be displayed and purchased, with product listings, descriptions, and pricing",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-podcast-page-where-podcast-episodes-can-be-listed-played-and-managed",
+      "title": "Build a podcast page where podcast episodes can be listed, played, and managed",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-background-music-that-plays-continuously-throughout-all-pages-of-the-website-with-user-controls-to-pause-play-and-adjust-volume",
+      "title": "Implement background music that plays continuously throughout all pages of the website with user controls to pause, play, and adjust volume",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-vibrant-bold-visual-theme-using-fuchsia-pink-and-orange-colors-consistently-across-all-pages-with-attention-grabbing-typography-and-modern-layout-patterns-that-reflect-the-energetic-personality-of-a-talk-show-brand",
+      "title": "Apply a vibrant, bold visual theme using fuchsia pink and orange colors consistently across all pages, with attention-grabbing typography and modern layout patterns that reflect the energetic personality of a talk show brand",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-generated-brand-assets-including-a-logo-featuring-sittin-with-shireen-branding-and-a-hero-background-image-with-fuchsia-pink-and-orange-theme-as-static-assets-in-frontend-public-assets-generated",
+      "title": "Render generated brand assets including a logo featuring 'Sittin with Shireen' branding and a hero background image with fuchsia pink and orange theme as static assets in frontend/public/assets/generated",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-configure-background-music-to-auto-play-when-the-application-loads-modifying-the-musiccontext-to-set-initial-playing-state-to-true-instead-of-false",
+      "title": "Configure background music to auto-play when the application loads, modifying the MusicContext to set initial playing state to true instead of false",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-existing-logo-with-the-user-provided-green-sittin-with-shireen-logo-sws-green-vector-v1-png-in-the-header-component-and-throughout-the-site-where-the-logo-appears",
+      "title": "Replace the existing logo with the user-provided green 'Sittin with Shireen' logo (SwS Green Vector v1.png) in the Header component and throughout the site where the logo appears",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-analyze-the-sherrishowtv-com-website-design-at-https-www-sherrishowtv-com-and-implement-a-similar-layout-structure-including-navigation-patterns-hero-section-styling-content-organization-and-overall-page-architecture",
+      "title": "Analyze the sherrishowtv.com website design at https://www.sherrishowtv.com and implement a similar layout structure including navigation patterns, hero section styling, content organization, and overall page architecture",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-home-page-component-to-match-the-visual-styling-and-content-arrangement-patterns-from-sherrishowtv-com-while-maintaining-the-sittin-with-shireen-branding-with-fuchsia-pink-and-orange-colors",
+      "title": "Update the Home page component to match the visual styling and content arrangement patterns from sherrishowtv.com while maintaining the 'Sittin with Shireen' branding with fuchsia pink and orange colors",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-redesign-the-videos-page-gallery-layout-to-match-the-video-presentation-style-from-sherrishowtv-com-while-keeping-the-youtube-style-grid-functionality",
+      "title": "Redesign the Videos page gallery layout to match the video presentation style from sherrishowtv.com while keeping the YouTube-style grid functionality",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-header-and-navigation-components-to-match-the-header-design-logo-placement-and-menu-structure-from-sherrishowtv-com",
+      "title": "Update the Header and Navigation components to match the header design, logo placement, and menu structure from sherrishowtv.com",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-redesign-the-store-page-to-match-the-merchandise-presentation-style-from-sherrishowtv-com-while-maintaining-existing-shopping-cart-and-checkout-functionality",
+      "title": "Redesign the Store page to match the merchandise presentation style from sherrishowtv.com while maintaining existing shopping cart and checkout functionality",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-podcast-page-to-match-the-episode-listing-and-audio-player-presentation-from-sherrishowtv-com",
+      "title": "Update the Podcast page to match the episode listing and audio player presentation from sherrishowtv.com",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-footer-component-to-match-the-footer-design-content-layout-and-styling-from-sherrishowtv-com",
+      "title": "Update the Footer component to match the footer design, content layout, and styling from sherrishowtv.com",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-adapt-the-overall-color-scheme-and-typography-throughout-the-site-to-match-sherrishowtv-com-aesthetics-while-preserving-the-fuchsia-pink-and-orange-brand-identity-where-it-enhances-rather-than-conflicts-with-the-reference-design",
+      "title": "Adapt the overall color scheme and typography throughout the site to match sherrishowtv.com aesthetics while preserving the fuchsia pink and orange brand identity where it enhances rather than conflicts with the reference design",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create homepage with fuchsia pink and orange color scheme",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Build video gallery page with YouTube-style grid layout for talk show sessions",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Create merchandise store page for products",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Build podcast page/section",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Implement background music throughout the website",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Auto-play background music on page load",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Replace logo with user-provided green logo image",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Redesign website layout and structure inspired by sherrishowtv.com design patterns",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Sittin with Shireen",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
